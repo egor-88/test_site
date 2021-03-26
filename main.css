@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    border: 0;
+    background-color: #828282;
+}
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1445px;
+    margin: 0 auto;
+}
+
+.container__min {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/*Header*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1111;
+    background: rgba(255, 255, 255, 0.4);
+}
+.menu {
+    display: flex;
+    padding-top: 33px;
+    justify-content: space-between;
+
+}
+
+.nav_link-active {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #070707;
+}
+
+.nav_link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #828282;
+}
+
+.logo {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    padding-top: 38px;
+    width: 123px;
+    height: 118px;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.info {
+    padding-top: 98px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+
+}
+
+.language {
+    margin-top: 79px;
+
+    font-size: 18px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+
+}
+
+.foto {
+    width: 937.6px;
+    height: 381px;
+    padding-top: 7%;
+    padding-left: 12%;
+    padding-bottom: 40%;
+}
+
+#block__text {
+    height: 506px;
+    background: #F6F6F6;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#text {
+    list-style: none;
+}
+
+.text__item-title {
+    padding-top: 120px;
+
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+    color: #070707;
+}
+
+.text__item {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 3%;
+}
+
+.skills{
+    width: 100%;
+    height: 506px;
+    padding-top: 91px;
+    text-align: center;
+}
+.skills__title{
+    font-size: 34px;
+    font-weight: 700;
+    color: #070707;
+
+}
+.skills__text{
+    font-size: 18px;
+    color: #070707;
+}
+
+.prog{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 105px;
+}
+
+.prog__logo{
+    background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+.prog__item-text{
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    font-weight: 700;
+}
+.stars__img{
+    padding-top: 40px;
+padding-right: 10px;
+padding-bottom: 110px;
+}
+.stars__img:last-child{
+    padding-right: 0px;
+}
+
+#portfolio__block{
+    
+    width: 100%;
+    height: 2330px;
+    background: #F6F6F6;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.portfolio__title{
+    padding-top: 112px;
+    padding-bottom: 47px;
+    text-align: center;
+    font-size: 34px;
+    color: #070707;
+    font-weight: 700;
+
+}
+.portfolio{
+    
+}
+.portfolio__item{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.portfolio__text{
+padding-top: 50px;
+padding-bottom: 80px;
+}
+
+.contacts{
+    padding-top: 115px;
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+    font-weight: 700;
+}
+
+.contacts__text{
+    padding-top: 23px;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.contacts__btn{
+    padding-top: 44px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    
+}
+.send{
+    font-size: 18px;
+    padding-left: 46%;
+    margin-top: -2.7%;
+    position: absolute;
+  color: #fff;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social__item{
+   
+    padding-top: 80px;
+   
+    padding-right: 50px;
+}
+.social__item:nth-child(1){
+    padding-left: 70px;
+}
+
+.like__me{
+    padding-top: 45px;
+}
+.like__me-text{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #828282;
+    line-height: 17px;
+    padding-bottom: 123px;
+}
